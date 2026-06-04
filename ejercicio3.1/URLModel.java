@@ -2,10 +2,10 @@
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class URLReader {
+public class URLModel {
 
     @SuppressWarnings("deprecation")
-    public static void URLReader() throws MalformedURLException {
+    public static void URLModel() throws MalformedURLException {
         URL github = new URL("https://github.com:443/usuario/repo/issues?estado=abierto&autor=user#cristian");
 
         System.out.println("getProtocol:" + github.getProtocol());
@@ -19,7 +19,7 @@ public class URLReader {
     }
 
     public static void main(String[] args) throws MalformedURLException {
-        URLReader();
+        URLModel();
     }
 
 }
