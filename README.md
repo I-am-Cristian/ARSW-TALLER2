@@ -139,3 +139,19 @@ El código 4 presenta un servidor web que atiende una solicitud. Implemente el s
 ![alt text](ejercicio4.4/resources/Prueba.png)
 
 ---
+
+### Ejercicio 4.5 - Servidor web que soporte múltiples solicitudes 
+
+### Descripción 
+Escriba un servidor web que soporte múltiples solicitudes seguidas (no concurrentes). El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e imágenes.
+
+### Pruebas
+
+### Consola
+![alt text](ejercicio4.5/resources/Cmd1.png)
+![alt text](ejercicio4.5/resources/Cmd2.png)
+### Pagina Web
+![alt text](ejercicio4.5/resources/Prueba.png)
+
+---
+
