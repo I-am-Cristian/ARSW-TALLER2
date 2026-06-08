@@ -85,9 +85,9 @@ Escriba un servidor que reciba un número y responda el cuadrado de este número
 ### Pruebas
 
 ### Cliente (EchoClient)
-![alt text](ejercicio4.3/resources/Client.png)
+![alt text](ejercicio4.3.1/resources/Client.png)
 ### Servidor (EchoServer)
-![alt text](ejercicio4.3/resources/Server.png)
+![alt text](ejercicio4.3.1/resources/Server.png)
 
 ### Conclusiones 
 
@@ -117,3 +117,25 @@ Escriba un servidor que pueda recibir un número y responda con un operación so
 ### Servidor (EchoServer)
 ![alt text](ejercicio4.3.2/resources/Server.png)
 
+---
+
+### Ejercicio 4.4 - Servidor Web
+
+### Descripción 
+El código 4 presenta un servidor web que atiende una solicitud. Implemente el servidor e intente conectarse desde el browser.
+
+### Procedimiento
+
+1. Se guardó el código en el archivo HttpServer.java.
+2. Se compiló utilizando el comando: javac HttpServer.java
+3. Se ejecutó el servidor mediante: java HttpServer
+4. El servidor quedó escuchando conexiones en el puerto 35000.
+5. Desde un navegador web se accedió a la dirección: http://localhost:35000
+6. El navegador envió una solicitud HTTP al servidor.
+7. El servidor recibió la petición, la mostró en consola y respondió una página HTML.
+
+### Pruebas
+
+![alt text](ejercicio4.4/resources/Prueba.png)
+
+---
