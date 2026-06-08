@@ -119,7 +119,7 @@ Escriba un servidor que pueda recibir un número y responda con un operación so
 
 ---
 
-### Ejercicio 4.4 - Servidor Web
+### Ejercicio 4.1 - Servidor Web
 
 ### Descripción 
 El código 4 presenta un servidor web que atiende una solicitud. Implemente el servidor e intente conectarse desde el browser.
@@ -140,7 +140,7 @@ El código 4 presenta un servidor web que atiende una solicitud. Implemente el s
 
 ---
 
-### Ejercicio 4.5 - Servidor web que soporte múltiples solicitudes 
+### Ejercicio 4.2 - Servidor web que soporte múltiples solicitudes 
 
 ### Descripción 
 Escriba un servidor web que soporte múltiples solicitudes seguidas (no concurrentes). El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e imágenes.
@@ -155,3 +155,15 @@ Escriba un servidor web que soporte múltiples solicitudes seguidas (no concurre
 
 ---
 
+### Ejercicio 5 - Datagramas que se conecte a un servidor y responde la hora actual en el servidor.
+
+### Descripción 
+Utilizando Datagramas escriba un programa que se conecte a un servidor que responde la hora actual en el servidor. El programa debe actualizar la hora cada 5 segundos segun los datos del servidor. Si una hora no es recibida debe mantener la hora que tenıa. Para la prueba se apagara el servidor y despues de unos segundos se reactivara. El cliente debe seguir funcionando y actualizarse cuando el servidor este nuevamente funcionando.
+
+### Pruebas
+
+![alt text](ejercicio5.2/resources/Server.png)
+
+![alt text](ejercicio5.2/resources/Client.png)
+
+---
