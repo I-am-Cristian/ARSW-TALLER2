@@ -2,6 +2,8 @@
 
 ### Ejercicio 1 - Lectura de componentes de una URL
 
+### Descripción
+
 Crear un objeto de tipo URL en Java e imprimir los valores retornados por los métodos:
 - getProtocol()
 - getAuthority()
@@ -72,4 +74,46 @@ Este archivo contiene el código HTML de la página descargada y puede abrirse d
 ![alt text](ejercicio3.2/resources/html.png)
 
 ![alt text](ejercicio3.2/resources/pagina.png)
+
+---
+
+### Ejercicio 3.1 - Servidor que recibe un número y responde el cuadrado.
+
+### Descripción
+Escriba un servidor que reciba un número y responda el cuadrado de este número.
+
+### Pruebas
+
+### Cliente (EchoClient)
+![alt text](ejercicio4.3/resources/Client.png)
+### Servidor (EchoServer)
+![alt text](ejercicio4.3/resources/Server.png)
+
+### Conclusiones 
+
+1. Servidor de números: La comunicación mediante sockets TCP permite construir aplicaciones cliente-servidor donde el servidor procesa datos (en este caso, cálculos matemáticos) y responde al cliente. El manejo de excepciones es crucial para evitar fallos cuando el cliente envía datos inválidos.
+
+2. En todos los casos se implementó manejo de excepciones, cierre adecuado de recursos (sockets, streams) y mensajes claros para el usuario.
+
+--- 
+
+### Ejercicio 3.2 - Servidor de Funciones Matemáticas (Seno, Coseno, Tangente)
+
+### Descripción
+
+Escriba un servidor que pueda recibir un número y responda con un operación sobre este número. Este servidor puede recibir un mensaje que empiece por “fun:”, si recibe este mensaje cambia la operación a las especificada. El servidor debe responder las funciones seno, coseno y tangente. Por defecto debe empezar calculando el coseno. Por ejemplo, si el primer número que recibe es 0, debe responder 1, si después recibe π/2 debe responder 0, si luego recibe “fun:sin” debe cambiar la operación actual a seno, es decir a partir de ese momento debe calcular senos. Si enseguida recibe 0 debe responder 0.
+
+### Comandos:
+
+  - fun:sin - Cambia a función seno
+  - fun:cos - Cambia a función coseno
+  - fun:tan - Cambia a función tangente
+  - bye - Terminar conexión
+
+### Pruebas:
+
+### Cliente (EchoClient)
+![alt text](ejercicio4.3.2/resources/Client.png)
+### Servidor (EchoServer)
+![alt text](ejercicio4.3.2/resources/Server.png)
 
