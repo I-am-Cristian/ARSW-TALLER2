@@ -167,3 +167,16 @@ Utilizando Datagramas escriba un programa que se conecte a un servidor que respo
 ![alt text](ejercicio5.2/resources/Client.png)
 
 ---
+
+### Ejercicio 6 - CHAT
+
+### Descripción 
+
+CHAT: Utilizando RMI, escriba un aplicativo que pueda conectarse a otro aplicativo del mismo tipo en un servidor remoto para comenzar un chat. El aplicativo debe solicitar una direcci´on IP y un puerto antes de conectarse con el cliente que se desea. Igualmente, debe solicitar un puerto antes de iniciar para que publique el objeto que recibe los llamados remotos en dicho puerto.
+
+### Pruebas
+
+![alt text](ejercicio6.4/resources/Cris.png)
+
+![alt text](ejercicio6.4/resources/Bob.png)
+
